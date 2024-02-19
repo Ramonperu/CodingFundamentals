@@ -200,3 +200,125 @@ SQL es independiente de plataformas y se utiliza ampliamente en sistemas de gest
 4. **Portabilidad:**
    - La portabilidad se refiere a la capacidad de utilizar el programa en dispositivos o plataformas diferentes a las que fue creado.
    - Ejemplo: un programa creado en Microsoft Windows es considerado portable si también puede ser utilizado en Mac OS.
+
+### COMPONENTES DE LA PROGRAMACIÓN:
+
+#### TRADUCTORES
+
+Los traductores son programas que reciben como entrada código escrito en un determinado lenguaje (Código Fuente) y lo convierten en un tipo de lenguaje equivalente que podrá ser interpretado por un ordenador, tablet, etc...
+
+#### INTERPRETES:
+
+Un intérprete es un **programa informático** que procesa el código fuente de un proyecto de software durante su tiempo de ejecución, es decir, mientras el software se está ejecutando, y actúa como una **interfaz** entre ese proyecto y el procesador. Un intérprete siempre procesa el código línea por línea, de modo que lee, analiza y prepara cada secuencia de forma consecutiva para el procesador.
+
+Ventajas:
+
+- Pueden ser ejecutados en cualquier plataforma.
+- Ocupan menos espacio en la memoria.
+
+#### COMPILADORES:
+
+Un compilador es un programa informático que traduce el código fuente escrito en un lenguaje de programación de alto nivel a un código objeto o código ejecutable. El código fuente es el conjunto de instrucciones escritas por el programador en un lenguaje de programación como C, C++, Java, Python, entre otros. El código objeto resultante es específico de la arquitectura de la computadora en la que se va a ejecutar el programa.
+
+Ventajas:
+
+- Un programa compilado puede correr por sí solo, ya que en el proceso de compilación se transformó en el Lenguaje Destino.
+- Genera programas rápidos y eficientes porque el análisis del lenguaje fuente se hace una sola vez.
+- Una vez compilado el programa, el código fuente no es necesario para ejecutarlo, pudiendo permanecer en secreto si se desea
+
+#### ALGORITMOS
+
+Un algoritmo es un conjunto de instrucciones o reglas bien definidas y ordenadas que describen paso a paso cómo realizar una tarea o resolver un problema específico. Los algoritmos son fundamentales en el campo de la programación y la informática en general, ya que proporcionan una forma sistemática de abordar la solución de problemas.
+
+Consta de las siguientes características:
+
+1. **Precisión:** Cada paso del algoritmo debe estar definido de manera clara y sin ambigüedades. Debe ser comprensible para cualquier persona que conozca el problema y el lenguaje utilizado.
+2. **Finitud:** El algoritmo debe terminar después de un número finito de pasos. No debe entrar en un bucle infinito y debe llegar a una solución o resultado en un tiempo razonable.
+3. **Entrada y salida definidas:** Debe tomar ciertos datos como entrada y producir un resultado específico como salida. Los datos de entrada y salida deben estar claramente especificados.
+4. **Eficiencia:** Un buen algoritmo debe ser eficiente en términos de tiempo y recursos. Debe resolver el problema en un tiempo razonable y utilizando la cantidad mínima de recursos necesarios.
+
+<img align="center" src="/img/14ºimagenn.PNG"  />
+
+**PSEUDOCODIGO:**
+
+Conjunto pequeño y claro de instrucciones en secuencia, que permiten realizar una tarea. Describe un algoritmo de forma similar a un lenguaje natural y permite especificar los pasos que lleva a cabo un programa.
+
+Características:
+
+- Facilitador: favorece la programación y solución del Algoritmo del programa.
+- Simplificador: fácil de usar y manipular; sintetiza el paso del programa al lenguaje de programación.
+- Independiente: no está ligado al código en el que se escribe el programa. 
+
+Ventajas:
+
+- No necesita sintaxis específica
+- Ocupa menos espacio
+- Es más fácil de modificar
+- Presenta una estructura lógica
+- Resulta sencillo traducir a lenguaje de programación
+
+Desventajas:
+
+- Posible ambigüedad de lectura
+- Falta de normas
+- Puede dificultar la comprensión en caso de problema extenso
+
+**DIAGRAMAS DE FLUJO**:
+
+Representación gráfica de la secuencia de las tareas a realizar, a través de símbolos y flechas. En función del resultado de la operación realizada en cada símbolo/caja el proceso seguirá una u otra vía.
+
+<img align="center" src="/img/15ºimagenn.PNG"  />
+
+Características
+
+- Símbolos Geométricos para representar las instrucciones.
+- De más a menos: el problema se divide en subproblemas cada vez más simples.
+- Limitaciones: ciertos cambios requieren que el diagrama sea modificado.
+
+ 
+
+Ventajas
+
+- Es fácil de entender
+- Es fácil de implementar
+- Cuenta con pocas reglas
+- Facilita la comprensión si el problema es extenso
+
+ 
+
+Desventajas
+
+- Ocupa mucho espacio
+- No muestra la estructura del proceso
+- Puede contener varios caminos / rutas
+- Presenta demasiados detalles, complicando su elaboración
+
+### PARADIGMAS DE LA PROGRAMACION
+
+Los paradigmas de programación son enfoques o estilos fundamentales para diseñar y escribir programas de software. Cada paradigma sigue un conjunto particular de principios y reglas que influyen en la estructura y organización del código. A continuación, se explican algunos de los paradigmas de programación más comunes:
+
+**Programación Imperativa:**
+
+- **Descripción:** La programación imperativa se centra en describir cómo se debe lograr una tarea mediante una serie de instrucciones.
+- **Características:** Utiliza sentencias que modifican el estado del programa (variables, memoria, etc.). Los lenguajes como C y Java siguen este paradigma.
+
+1. **Programación Orientada a Objetos (OOP):**
+   - **Descripción:** Organiza el código alrededor de "objetos", que son instancias de clases que encapsulan datos y funciones relacionadas.
+   - **Características:** Encapsulación, herencia y polimorfismo son conceptos clave. Lenguajes como Java, Python y C# siguen este paradigma.
+2. **Programación Estructurada:**
+   - **Descripción:** Se enfoca en estructuras de control (secuencia, selección y repetición) para organizar y controlar el flujo de ejecución.
+   - **Características:** Evita el uso excesivo de instrucciones de salto incondicional. Lenguajes como C y Pascal siguen este paradigma.
+
+**Programación Declarativa:**
+
+- **Descripción:** Se centra en describir el resultado deseado, sin especificar explícitamente cómo alcanzarlo. El programador se enfoca en "qué hacer" en lugar de "cómo hacerlo".
+- **Características:** Incluye la programación funcional y la programación lógica. Ejemplos son Haskell (funcional) y Prolog (lógico).
+
+1. **Programación Funcional:**
+   - **Descripción:** Se centra en funciones puras, sin efectos secundarios. Trata a las funciones como ciudadanos de primera clase.
+   - **Características:** Inmutabilidad, funciones de orden superior, y expresiones lambda son comunes. Lenguajes como Haskell, Lisp y Scala siguen este paradigma.
+2. **Programación Lógica:**
+   - **Descripción:** Define el problema como un conjunto de hechos y reglas lógicas, y el sistema deduce las soluciones automáticamente.
+   - **Características:** Se utiliza principalmente en la programación de lógica declarativa. Prolog es un ejemplo destacado.
+
+1. 
